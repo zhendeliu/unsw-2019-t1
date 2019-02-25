@@ -5,7 +5,7 @@ computes the number of elements strictly less 5, 10, 15 and 20, and prints those
 '''
 
 
-from random import seed, randrange
+from random import seed, randrange , randint
 import sys
 
 
@@ -25,7 +25,7 @@ def solution1():
         print('Input is not an integer, giving up.')
         sys.exit()
     seed(seed_value)
-    rand_list = [randrange(19) for _ in range(nb_of_elements)]
+    rand_list = [randint(0,19) for _ in range(nb_of_elements)]
     print('\nThe list is:', rand_list)
     print()
     count_dic = {}
@@ -65,7 +65,7 @@ except ValueError:
     print('Input is not an integer, giving up.')
     sys.exit()
 seed(seed_value)
-rand_list = [randrange(19) for _ in range(nb_of_elements)]
+rand_list = [randint(0,19) for _ in range(nb_of_elements)]
 print('\nThe list is:', rand_list)
 print()
 count_list = [0 for i in range(4)]
