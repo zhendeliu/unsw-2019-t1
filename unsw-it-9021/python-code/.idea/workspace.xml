@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d9ddce7-cca2-4c3e-9c84-cb5393278bf5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Untitled.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Untitled.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenge1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../unsw-it-9020" beforeDir="false" afterPath="$PROJECT_DIR$/../../unsw-it-9020" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/quiz1.py" beforeDir="false" afterPath="$PROJECT_DIR$/quiz1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../unsw-it-9024/Notes  1 - Turing machines 2/.ipynb_checkpoints/Turing machines-checkpoint.ipynb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../unsw-it-9024/Notes  1 - Turing machines 2/.ipynb_checkpoints/Untitled-checkpoint.ipynb" beforeDir="false" />
@@ -50,10 +50,11 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/python_code$challenge1.coverage" NAME="challenge1 Coverage Results" MODIFIED="1550902934645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_code$mean_median_standard_deviation.coverage" NAME="mean_median_standard_deviation Coverage Results" MODIFIED="1551055908276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/challenges_1/home4" />
-    <SUITE FILE_PATH="coverage/python_code$intervals.coverage" NAME="intervals Coverage Results" MODIFIED="1551011890982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/challenges_1/home3" />
+    <SUITE FILE_PATH="coverage/python_code$intervals.coverage" NAME="intervals Coverage Results" MODIFIED="1551057710925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/challenges_1/home3" />
     <SUITE FILE_PATH="coverage/python_code$fahrenheit_to_celsius.coverage" NAME="fahrenheit_to_celsius Coverage Results" MODIFIED="1550964967377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python_code$quiz1.coverage" NAME="quiz1 Coverage Results" MODIFIED="1550922069687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_code$test.coverage" NAME="test Coverage Results" MODIFIED="1551082782350" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_code$span.coverage" NAME="span Coverage Results" MODIFIED="1551006131885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/challenges_1/home-2" />
+    <SUITE FILE_PATH="coverage/python_code$quiz1.coverage" NAME="quiz1 Coverage Results" MODIFIED="1551083422347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_code$max_in_list.coverage" NAME="max_in_list Coverage Results" MODIFIED="1551000216094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/challenges_1/home-2" />
     <SUITE FILE_PATH="coverage/python_code$modulo_4.coverage" NAME="modulo_4 Coverage Results" MODIFIED="1551009589252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/challenges_1/home3" />
     <SUITE FILE_PATH="coverage/python_code$celsius_to_fahrenheit.coverage" NAME="celsius_to_fahrenheit Coverage Results" MODIFIED="1551006588778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -64,34 +65,43 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/challenges_1/home4/commands_and_expected_outputs.txt">
+        <entry file="file://$PROJECT_DIR$/challenges_1/home3/intervals.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-48">
-              <caret line="13" column="20" lean-forward="true" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/challenges_1/home4/mean_median_standard_deviation.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="43" column="22" lean-forward="true" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
+            <state relative-caret-position="253">
+              <caret line="70" column="34" selection-start-line="70" selection-start-column="34" selection-end-line="70" selection-end-column="34" />
               <folding>
-                <element signature="e#363#395#0" expanded="true" />
+                <element signature="e#252#286#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/challenges_1/home3/intervals.py">
+        <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="73" column="18" selection-start-line="73" selection-start-column="17" selection-end-line="73" selection-end-column="18" />
+            <state relative-caret-position="196">
+              <caret line="53" column="49" selection-start-line="53" selection-start-column="49" selection-end-line="53" selection-end-column="49" />
               <folding>
-                <element signature="e#252#286#0" expanded="true" />
+                <element signature="e#348#382#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/quiz1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="96" column="20" selection-start-line="96" selection-start-column="20" selection-end-line="96" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/challenges_1/home3/commands_and_expected_outputs.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="55">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
@@ -113,13 +123,15 @@
       <list>
         <option value="$PROJECT_DIR$/fahrenheit_to_celsius.py" />
         <option value="$PROJECT_DIR$/challenge1.py" />
-        <option value="$PROJECT_DIR$/quiz1.py" />
         <option value="$PROJECT_DIR$/celsius_to_fahrenheit.py" />
         <option value="$PROJECT_DIR$/challenges_1/home-2/max_in_list.py" />
         <option value="$PROJECT_DIR$/challenges_1/home-2/span.py" />
         <option value="$PROJECT_DIR$/challenges_1/home3/modulo_4.py" />
-        <option value="$PROJECT_DIR$/challenges_1/home3/intervals.py" />
         <option value="$PROJECT_DIR$/challenges_1/home4/mean_median_standard_deviation.py" />
+        <option value="$PROJECT_DIR$/challenges_1/home3/commands_and_expected_outputs.txt" />
+        <option value="$PROJECT_DIR$/challenges_1/home3/intervals.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/quiz1.py" />
       </list>
     </option>
   </component>
@@ -142,23 +154,6 @@
             <path>
               <item name="python-code" type="b2602c69:ProjectViewProjectNode" />
               <item name="python-code" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python-code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python-code" type="462c0819:PsiDirectoryNode" />
-              <item name="challenges_1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python-code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python-code" type="462c0819:PsiDirectoryNode" />
-              <item name="challenges_1" type="462c0819:PsiDirectoryNode" />
-              <item name="home3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python-code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python-code" type="462c0819:PsiDirectoryNode" />
-              <item name="challenges_1" type="462c0819:PsiDirectoryNode" />
-              <item name="home4" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -189,29 +184,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.mean_median_standard_deviation">
-    <configuration name="celsius_to_fahrenheit" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python-code" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/challenges_1/celsius_to_fahrenheit.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.quiz1">
     <configuration name="intervals" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python-code" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -278,7 +251,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="span" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="quiz1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python-code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -286,12 +259,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/challenges_1/home-2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/challenges_1/home-2/span.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/quiz1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python-code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -302,11 +297,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.mean_median_standard_deviation" />
+        <item itemvalue="Python.quiz1" />
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.intervals" />
+        <item itemvalue="Python.mean_median_standard_deviation" />
         <item itemvalue="Python.modulo_4" />
-        <item itemvalue="Python.celsius_to_fahrenheit" />
-        <item itemvalue="Python.span" />
       </list>
     </recent_temporary>
   </component>
@@ -322,28 +317,30 @@
       <updated>1550752860656</updated>
       <workItem from="1550752861837" duration="5213000" />
       <workItem from="1550898618238" duration="21121000" />
-      <workItem from="1551050653999" duration="4805000" />
+      <workItem from="1551050653999" duration="5224000" />
+      <workItem from="1551056407692" duration="679000" />
+      <workItem from="1551057678010" duration="2343000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31139000" />
+    <option name="totallyTimeSpent" value="34580000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="40" y="23" width="1400" height="774" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4988764" visible="true" weight="0.08011869" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4988764" visible="true" weight="0.16320474" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5011236" side_tool="true" weight="0.16320474" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32880846" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32880846" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32880846" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39950678" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32880846" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32730016" />
@@ -459,13 +456,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/quiz1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="67" column="39" selection-start-line="67" selection-start-column="39" selection-end-line="67" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/challenges_1/fahrenheit_to_celsius.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="127">
@@ -493,9 +483,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/challenges_1/home3/commands_and_expected_outputs.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/challenges_1/celsius_to_fahrenheit.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -503,30 +490,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/challenges_1/home3/intervals.py">
+    <entry file="file://$PROJECT_DIR$/challenges_1/home4/mean_median_standard_deviation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="73" column="18" selection-start-line="73" selection-start-column="17" selection-end-line="73" selection-end-column="18" />
+        <state relative-caret-position="110">
+          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
           <folding>
-            <element signature="e#252#286#0" expanded="true" />
+            <element signature="e#363#395#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/challenges_1/home4/commands_and_expected_outputs.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-48">
+        <state relative-caret-position="286">
           <caret line="13" column="20" lean-forward="true" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/challenges_1/home4/mean_median_standard_deviation.py">
+    <entry file="file://$PROJECT_DIR$/challenges_1/home3/commands_and_expected_outputs.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="43" column="22" lean-forward="true" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
+        <state relative-caret-position="55">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/challenges_1/home3/intervals.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="70" column="34" selection-start-line="70" selection-start-column="34" selection-end-line="70" selection-end-column="34" />
           <folding>
-            <element signature="e#363#395#0" expanded="true" />
+            <element signature="e#252#286#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="53" column="49" selection-start-line="53" selection-start-column="49" selection-end-line="53" selection-end-column="49" />
+          <folding>
+            <element signature="e#348#382#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quiz1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="96" column="20" selection-start-line="96" selection-start-column="20" selection-end-line="96" selection-end-column="20" />
         </state>
       </provider>
     </entry>

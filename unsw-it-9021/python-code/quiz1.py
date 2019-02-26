@@ -77,21 +77,23 @@ def accepts(transitions, word, initial_state, accept_state):
     #     return False
     # pass
 
-
+#
 transitions_1 = {('q0', 0): 'q1', ('q1', 1): 'q0'}
-accepts(transitions_1, '00', 'q0', 'q1')
-accepts(transitions_1, '2', 'q0', 'q0')
-accepts(transitions_1, '0101010', 'q0', 'q0')
-accepts(transitions_1, '01010101', 'q0', 'q0')
-a = not accepts(transitions_1, '01', 'q0', 'q1') and accepts(transitions_1, '010', 'q0', 'q1')
-print('=====')
-print(a)
-transitions_2 = {('state_1', 0): 'state_2', ('state_1', 1): 'state_1', ('state_2', 0): 'state_1', ('state_2', 1): 'state_2'}
-accepts(transitions_2, '011', 'state_1', 'state_1')
-accepts(transitions_2, '001110000', 'state_1', 'state_1')
-accepts(transitions_2, '1011100101', 'state_1', 'state_1')
-accepts(transitions_2, '10111000101', 'state_1', 'state_1')
-# if __name__ == '__main__':
+# accepts(transitions_1, '00', 'q0', 'q1')
+# accepts(transitions_1, '2', 'q0', 'q0')
+# accepts(transitions_1, '0101010', 'q0', 'q0')
+# accepts(transitions_1, '01010101', 'q0', 'q0')
+# a = not accepts(transitions_1, '01', 'q0', 'q1') and accepts(transitions_1, '010', 'q0', 'q1')
+# print('=====')
+# print(a)
+# transitions_2 = {('state_1', 0): 'state_2', ('state_1', 1): 'state_1', ('state_2', 0): 'state_1', ('state_2', 1): 'state_2'}
+# accepts(transitions_2, '011', 'state_1', 'state_1')
+# accepts(transitions_2, '001110000', 'state_1', 'state_1')
+# accepts(transitions_2, '1011100101', 'state_1', 'state_1')
+# accepts(transitions_2, '10111000101', 'state_1', 'state_1')
+
+if __name__ == '__main__':
+    accepts(transitions_1, '0101010', 'q0', 'q0')
     # import doctest
     #
     # doctest.testmod()
