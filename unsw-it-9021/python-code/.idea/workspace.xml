@@ -2,44 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d9ddce7-cca2-4c3e-9c84-cb5393278bf5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../unsw-it-9020" beforeDir="false" afterPath="$PROJECT_DIR$/../../unsw-it-9020" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quiz1.py" beforeDir="false" afterPath="$PROJECT_DIR$/quiz1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../unsw-it-9024/Notes  1 - Turing machines 2/.ipynb_checkpoints/Turing machines-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../unsw-it-9024/Notes  1 - Turing machines 2/.ipynb_checkpoints/Untitled-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../unsw-it-9024/Notes  1 - Turing machines 2/Turing machines.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../unsw-it-9024/Notes  1 - Turing machines 2/Turing machines.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../unsw-it-9024/Notes  1 - Turing machines 2/Untitled.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../unsw-it-9024/Notes  1 - Turing machines 2/addition.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../unsw-it-9024/Notes  1 - Turing machines 2/division_by_2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../unsw-it-9024/Notes  1 - Turing machines 2/multiplication.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../unsw-it-9024/Notes  1 - Turing machines 2/parity.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../unsw-it-9024/Notes  1 - Turing machines 2/successor.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../unsw-it-9024/Notes  1 - Turing machines 2/turing_machine_simulator.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../unsw-it-9024/Notes  1 - Turing machines.tar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../unsw-it-9024/Notes  1 - Turing machines/Turing machines.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../unsw-it-9024/Notes  1 - Turing machines/Turing machines.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../unsw-it-9024/Notes  1 - Turing machines/addition.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../unsw-it-9024/Notes  1 - Turing machines/division_by_2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../unsw-it-9024/Notes  1 - Turing machines/multiplication.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../unsw-it-9024/Notes  1 - Turing machines/parity.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../unsw-it-9024/Notes  1 - Turing machines/successor.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../unsw-it-9024/Notes  1 - Turing machines/turing_machine_simulator.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../unsw-it-9024/Notes  2 - The Monty Hall problem.tar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../unsw-it-9024/Notes  2 - The Monty Hall problem/The Monty Hall problem.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../unsw-it-9024/Notes  2 - The Monty Hall problem/The Monty Hall problem.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../unsw-it-9024/Notes  2 - The Monty Hall problem/monthy_hall.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../unsw-it-9024/Notes  3 - From decimal expansions to reduced fractions.tar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../unsw-it-9024/Notes  3 - From decimal expansions to reduced fractions/From decimal expansions to reduced fractions.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../unsw-it-9024/Notes  3 - From decimal expansions to reduced fractions/From decimal expansions to reduced fractions.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../unsw-it-9024/Notes  3 - From decimal expansions to reduced fractions/rational_number.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../unsw-it-9024/Reference.tar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../unsw-it-9024/outline.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../unsw-it-9024/python-code/.ipynb_checkpoints/Untitled-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../unsw-it-9024/python-code/.ipynb_checkpoints/Untitled1-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../unsw-it-9024/python-code/Untitled.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../unsw-it-9024/python-code/Untitled1.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../unsw-it-9024/welcome_2019.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../unsw-it-9020/week2-4.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../unsw-it-9020/week2-4.pdf" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,11 +30,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/challenges_1/home3/intervals.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
+            <state relative-caret-position="1518">
               <caret line="70" column="34" selection-start-line="70" selection-start-column="34" selection-end-line="70" selection-end-column="34" />
-              <folding>
-                <element signature="e#252#286#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -79,7 +39,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
+            <state relative-caret-position="1144">
               <caret line="53" column="49" selection-start-line="53" selection-start-column="49" selection-end-line="53" selection-end-column="49" />
               <folding>
                 <element signature="e#348#382#0" expanded="true" />
@@ -91,8 +51,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/quiz1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="96" column="20" selection-start-line="96" selection-start-column="20" selection-end-line="96" selection-end-column="20" />
+            <state relative-caret-position="476">
+              <caret line="98" selection-start-line="88" selection-start-column="21" selection-end-line="98" />
             </state>
           </provider>
         </entry>
@@ -100,7 +60,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/challenges_1/home3/commands_and_expected_outputs.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="55">
+            <state relative-caret-position="550">
               <caret line="25" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
@@ -147,7 +107,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -159,6 +118,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -320,16 +280,18 @@
       <workItem from="1551050653999" duration="5224000" />
       <workItem from="1551056407692" duration="679000" />
       <workItem from="1551057678010" duration="2343000" />
+      <workItem from="1551251964701" duration="2850000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34580000" />
+    <option name="totallyTimeSpent" value="37430000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="40" y="23" width="1400" height="774" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4988764" visible="true" weight="0.16320474" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4988764" visible="true" weight="0.1661721" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5011236" side_tool="true" weight="0.16320474" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -343,7 +305,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32880846" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32730016" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.60633487" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -507,26 +469,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/challenges_1/home3/commands_and_expected_outputs.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/challenges_1/home3/intervals.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
+        <state relative-caret-position="1518">
           <caret line="70" column="34" selection-start-line="70" selection-start-column="34" selection-end-line="70" selection-end-column="34" />
-          <folding>
-            <element signature="e#252#286#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
+        <state relative-caret-position="1144">
           <caret line="53" column="49" selection-start-line="53" selection-start-column="49" selection-end-line="53" selection-end-column="49" />
           <folding>
             <element signature="e#348#382#0" expanded="true" />
@@ -534,10 +486,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/challenges_1/home3/commands_and_expected_outputs.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/quiz1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="96" column="20" selection-start-line="96" selection-start-column="20" selection-end-line="96" selection-end-column="20" />
+        <state relative-caret-position="476">
+          <caret line="98" selection-start-line="88" selection-start-column="21" selection-end-line="98" />
         </state>
       </provider>
     </entry>
