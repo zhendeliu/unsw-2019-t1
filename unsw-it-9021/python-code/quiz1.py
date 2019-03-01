@@ -42,6 +42,7 @@ def accepts(transitions, word, initial_state, accept_state):
     returns True; otherwise it returns False.
     '''
     # word_list = list(word)
+    get_state = False
     current_state = initial_state
     for w in word:
         try:
