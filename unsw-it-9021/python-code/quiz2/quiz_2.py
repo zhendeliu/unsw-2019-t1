@@ -36,20 +36,23 @@ def draw_line(rule_nb, first, second, length):
     if type(rule_nb) == int and rule_nb >= 0 and rule_nb <= 15:
         rule = rule_encoded_by(rule_nb)
     else:
-        print('wrong rule_nb')
+        # print('wrong rule_nb')
         return
     if first not in [0,1] or second not in [0,1]:
         return
     obj_list = [first,second]
     if length < 1:
         obj_list = []
-        print('empty')
+        # print('empty')
     elif length ==1:
         obj_list = [first]
+        print(obj_list)
     else:
         for i in range(length-2):
             obj_list.append(rule[obj_list[i],obj_list[i+1]])
-    return ''.join([str(symbol) for symbol in obj_list])
+    res = int(''.join([str(symbol) for symbol in obj_list]))
+    print(res)
+    return res
 
 def uniquely_produced_by_rule(line):
     '''
@@ -91,6 +94,9 @@ def uniquely_produced_by_rule(line):
 
 if __name__ == '__main__':
     # describe_rule(0)
-    # draw_line = draw_line(4, 0, 1, 1)
-    un = uniquely_produced_by_rule('11111111')
-    print(un)
+    draw_lin = draw_line(4, 1, 0, 9)
+    # draw_lin = draw_line(3, 0, 0, 1)
+    uniquely_produced_by_rule('11011111')
+    # print(draw_lin)
+    # draw_line(14, 1, 0, 22)
+    draw_line(14, 0, 0, 21)
