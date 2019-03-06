@@ -1,84 +1,32 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-# @Time    : 2019-02-25 19:09
-# @Author  : ZD Liu
-
-'''
-Prompts the user for a strictly positive integer, nb_of_elements,
-generates a list of nb_of_elements random integers between 0 and 19, prints out the list,
-computes the number of elements strictly less 5, 10, 15 and 20, and prints those out.
-'''
-
-from random import seed, randrange
-import sys
-
-# Prompts the user for a seed for the random number generator,
-# and for a strictly positive number, nb_of_elements.
-try:
-    arg_for_seed = int(input('Input a seed for the random number generator: '))
-except ValueError:
-    print('Input is not an integer, giving up.')
-    sys.exit()
-try:
-    nb_of_elements = int(input('How many elements do you want to generate? '))
-except ValueError:
-    print('Input is not an integer, giving up.')
-    sys.exit()
-if nb_of_elements <= 0:
-    print('Input should be strictly positive, giving up.')
-    sys.exit()
-# Generates a list of nb_of_elements random integers between 0 and 99.
-seed(arg_for_seed)
-L = [randrange(20) for _ in range(nb_of_elements)]
-print('\nThe list is:', L)
-print()
-
-less = [0] * 4
-for e in L:
-    if e < 5:
-        less[0] += 1
-    elif e > 4 and e < 10:
-        less[1] += 1
-    elif e > 9 and e < 15:
-        less[2] += 1
-    elif e > 14 and e < 20:
-        less[3] += 1
-
-if less[0] == 0:
-    print('There is no element between 0 and 4.')
-elif less[0] == 1:
-    print('There is', less[0], 'element', 'between 0 and 4.')
-elif less[0] > 1:
-    print('There are', less[0], 'elements', 'between 0 and 4.')
-if less[1] == 0:
-    print('There is no element between 5 and 9.')
-elif less[1] == 1:
-    print('There is', less[1], 'element', 'between 5 and 9.')
-elif less[1] > 1:
-    print('There are', less[0], 'elements', 'between 5 and 9.')
-
-if less[2] == 0:
-    print('There is no element between 10 and 14.')
-elif less[2] == 1:
-    print('There is', less[2], 'element', 'between 10 and 14.')
-elif less[2] > 1:
-    print('There are', less[2], 'elements', 'between 10 and 14.')
-
-if less[3] == 0:
-    print('There is no element between 15 and 19.')
-elif less[3] == 1:
-    print('There is', less[3], 'element', 'between 15 and 19.')
-elif less[3] > 1:
-    print('There are', less[3], 'elements', 'between 15 and 19.')
+def display_ECA(rule_nb, size):
+    bit_below = record_rule(rule_nb) # 规则创建
+    new_line = [1]
+    end_bit = 0
+    display_line(new_line, end_bit, size) # 展示初始第一行
+    for n in range(size):
+        current_line = [end_bit] * 2 + new_line + [end_bit] * 2
+        new_line = [bit_below[current_line[i],current_line[i + 1],current_line[i + 2]]for i in range(len(current_line) - 2)]
+        end_bit = bit_below[end_bit, end_bit, end_bit]
+        display_line(new_line, end_bit, size - n - 1)
 
 
+def display_end_squares(end_bit, nb_of_end_bits):
+    print(end_bit * nb_of_end_bits, end = '')
+
+def display_line(bit_sequence, end_bit, nb_of_end_bits):
+    squares = {0: '\u2b1c', 1: '\u2b1b'} # 定义字典 0 表示 白色方块 1 表示黑色方块
+    display_end_squares(squares[end_bit], nb_of_end_bits) # 画出前一部分的白框
+    print(''.join(squares[b] for b in bit_sequence), end = '')# 画出中间部分的计算得到的白框和黑框
+    display_end_squares(squares[end_bit], nb_of_end_bits) # 画出后半部分的白框
+    print()
+
+def record_rule(E):
+    values = [int(d) for d in f'{E:08b}'] # 列表元素对应二进制数E的所有位置的值，从前往后8位 空格用0补
+    return {(p // 4, p // 2 % 2, p % 2): values[7 - p] for p in range(8)} # 创建返回规则字典，字典key来自于二进制列表
 
 
-
-
-
-
-
-
-
-
+if __name__ == '__main__':
+    # display_ECA(90,7)
+    dic = {(1,2):1, (2,3):2}
+    for i in dic.items():
+        print(type(i[0]))
