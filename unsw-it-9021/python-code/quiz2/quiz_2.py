@@ -53,7 +53,7 @@ def draw_line(rule_nb, first, second, length):
         for i in range(length-2):
             obj_list.append(rule[obj_list[i],obj_list[i+1]])
     res = ''.join([str(symbol) for symbol in obj_list])
-    return res
+    print(res)
 
 def uniquely_produced_by_rule(line):
     '''
@@ -101,9 +101,9 @@ def uniquely_produced_by_rule(line):
 
 if __name__ == '__main__':
     # describe_rule(0)
-    draw_lin = draw_line(4, 1, 0, 9)
-    # draw_lin = draw_line(3, 0, 0, 1)
-    uniquely_produced_by_rule('11011111')
+    # draw_lin = draw_line(4, 1, 0, 9)
+    # # draw_lin = draw_line(3, 0, 0, 1)
+    # uniquely_produced_by_rule('11011111')
     # print(draw_lin)
     # draw_line(14, 1, 0, 22)
-    draw_line(14, 0, 0, 21)
+    draw_line(15, 0, 1, 2)

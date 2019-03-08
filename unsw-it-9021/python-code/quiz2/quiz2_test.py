@@ -33,6 +33,7 @@ def quiz2_test():
     print(draw_line(0,0,0,0))
     print(draw_line(1,1,1,1))
     print(draw_line(4, 0, 1, 0))
+    print(999999)
     print(draw_line('a', 0, 1, 0))
     print(draw_line(4, 'a', 1, -1))
     print(draw_line(4, 0, 'a', 13))
@@ -66,5 +67,3 @@ def quiz2_test():
 
 if __name__ == '__main__':
     quiz2_test()
-    a = []
-    if i not in
