@@ -15,6 +15,10 @@ except ValueError:
 
 
 def length_of_longest_increasing_sequence(L):
+    if len(L) < 1:
+        return 0
+    if len(L) == 1:
+        return 1
     count_list = []
     for i in range(len(L)):
         j = i+1
@@ -23,6 +27,8 @@ def length_of_longest_increasing_sequence(L):
         count = 1
         while L[i] <= L[j]:
             count += 1
+            if count >= len(L):
+                return len(L)
             i += 1
             j += 1
             if i >= len(L):
@@ -35,6 +41,8 @@ def length_of_longest_increasing_sequence(L):
     # REPLACE pass ABOVE WITH  YOUR CODE
 
 def max_int_jumping_in(L):
+    if len(L) < 1:
+        return
     num_list = []
     for i in range(len(L)):
         num_str = str(L[i])
@@ -45,14 +53,8 @@ def max_int_jumping_in(L):
             index_list.append(index_new)
             index_new = L[index_new]
             num_str += str(index_new)
-        num_list.append(num_str)
-    res = num_list[0]
-    for s in num_list:
-        if len(res) < len(s):
-            res = s
-    return res
-    pass
-    # REPLACE pass ABOVE WITH  YOUR CODE
+        num_list.append(int(num_str))
+    return max(num_list)
 
 
 seed(arg_for_seed)
