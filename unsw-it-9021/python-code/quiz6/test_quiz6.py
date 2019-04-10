@@ -1690,6 +1690,58 @@ Enter two integers: Incorrect input, giving up.
 >>> print(os.popen('echo 10   | python3 quiz_6.py').read(), end='')
 Enter two integers: Incorrect input, giving up.
 
+>>> print(os.popen('echo 4652 1 | python3 quiz_6.py').read(), end='')
+Enter two integers: Here is the grid that has been generated:
+    0 0 0 1 0 0 0 0 0 0
+    0 1 1 1 1 0 0 0 1 1
+    0 0 0 1 0 1 0 1 0 1
+    1 0 1 1 0 0 0 0 1 1
+    1 1 1 1 1 0 1 1 1 1
+    1 1 1 1 0 1 1 1 1 0
+    1 1 1 1 0 0 1 1 0 0
+    1 0 1 0 0 0 1 0 1 0
+    1 0 0 1 0 0 1 0 1 0
+    1 0 1 0 0 1 1 0 0 0
+The largest isosceles triangle has a size of 3
+>>> print(os.popen('echo 16662 1 | python3 quiz_6.py').read(), end='')
+Enter two integers: Here is the grid that has been generated:
+    0 0 0 0 0 0 1 0 0 0
+    1 1 1 0 1 0 0 1 1 0
+    1 0 1 1 1 0 1 0 1 1
+    1 0 0 1 1 1 1 0 1 0
+    0 1 1 1 0 0 0 1 1 0
+    1 0 1 0 1 0 1 0 1 1
+    0 0 0 0 1 0 0 1 1 1
+    1 0 0 0 0 1 1 1 1 0
+    1 0 0 0 1 1 1 1 1 0
+    1 0 0 1 0 0 0 0 1 0
+The largest isosceles triangle has a size of 3
+>>> print(os.popen('echo 30072 1 | python3 quiz_6.py').read(), end='')
+Enter two integers: Here is the grid that has been generated:
+    1 0 0 0 0 0 0 0 0 0
+    1 0 0 0 0 0 0 0 0 0
+    1 0 0 0 1 1 1 1 1 1
+    0 0 1 0 1 1 0 0 0 0
+    0 0 0 0 1 0 1 0 1 1
+    0 0 0 1 1 0 0 0 1 0
+    1 0 1 1 0 1 1 1 0 0
+    1 1 0 0 1 0 0 0 0 1
+    0 1 1 1 0 0 1 1 0 1
+    0 1 1 1 0 1 0 0 1 0
+The largest isosceles triangle has a size of 2
+>>> print(os.popen('echo 31303 1 | python3 quiz_6.py').read(), end='')
+Enter two integers: Here is the grid that has been generated:
+    1 0 0 0 0 0 0 0 0 0
+    1 0 0 1 0 1 1 1 1 0
+    0 0 1 1 1 1 0 0 1 0
+    1 1 0 0 0 1 0 1 0 1
+    1 1 0 0 1 1 0 1 0 1
+    1 0 0 0 1 1 1 1 1 1
+    1 1 1 1 1 1 0 0 1 1
+    0 0 1 1 0 1 1 1 0 0
+    0 0 1 0 1 1 0 0 1 1
+    0 1 1 1 1 1 0 0 1 1
+The largest isosceles triangle has a size of 2
 '''
 
 
