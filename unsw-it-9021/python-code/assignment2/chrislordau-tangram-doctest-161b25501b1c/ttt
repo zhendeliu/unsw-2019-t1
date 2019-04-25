@@ -1,0 +1,276 @@
+Testing started at 16:29 ...
+/usr/local/bin/python3.7 /Applications/PyCharm.app/Contents/helpers/pycharm/docrunner.py /Users/zhendeliu/Documents/unsw-2019-t1/unsw-it-9021/python-code/assignment2/chrislordau-tangram-doctest-161b25501b1c/test.py
+/Applications/PyCharm.app/Contents/helpers/pycharm/docrunner.py:1: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+
+Failure <Click to see difference>
+
+**********************************************************************
+File "/Users/zhendeliu/Documents/unsw-2019-t1/unsw-it-9021/python-code/assignment2/chrislordau-tangram-doctest-161b25501b1c/test.py", line 29, in test
+Failed example:
+    is_solution(
+       available_coloured_pieces(open('files/eric/tangram_A_1_a.xml')),
+       available_coloured_pieces(open('files/eric/shape_A_1.xml')))
+Expected:
+    True
+Got:
+    False
+
+
+Failure <Click to see difference>
+
+**********************************************************************
+File "/Users/zhendeliu/Documents/unsw-2019-t1/unsw-it-9021/python-code/assignment2/chrislordau-tangram-doctest-161b25501b1c/test.py", line 33, in test
+Failed example:
+    is_solution(
+       available_coloured_pieces(open('files/eric/tangram_A_1_b.xml')),
+       available_coloured_pieces(open('files/eric/shape_A_1.xml')))
+Expected:
+    True
+Got:
+    False
+
+
+Failure <Click to see difference>
+
+**********************************************************************
+File "/Users/zhendeliu/Documents/unsw-2019-t1/unsw-it-9021/python-code/assignment2/chrislordau-tangram-doctest-161b25501b1c/test.py", line 37, in test
+Failed example:
+    is_solution(
+       available_coloured_pieces(open('files/eric/tangram_A_2_a.xml')),
+       available_coloured_pieces(open('files/eric/shape_A_2.xml')))
+Expected:
+    True
+Got:
+    False
+
+
+Failure <Click to see difference>
+
+**********************************************************************
+File "/Users/zhendeliu/Documents/unsw-2019-t1/unsw-it-9021/python-code/assignment2/chrislordau-tangram-doctest-161b25501b1c/test.py", line 41, in test
+Failed example:
+    is_solution(
+       available_coloured_pieces(open('files/eric/tangram_A_2_b.xml')),
+       available_coloured_pieces(open('files/eric/shape_A_2.xml')))
+Expected:
+    True
+Got:
+    False
+
+
+Failure <Click to see difference>
+
+**********************************************************************
+File "/Users/zhendeliu/Documents/unsw-2019-t1/unsw-it-9021/python-code/assignment2/chrislordau-tangram-doctest-161b25501b1c/test.py", line 80, in test
+Failed example:
+    is_solution(
+       available_coloured_pieces(open('files/kieran/_Tangram_A_1.xml')),
+       available_coloured_pieces(open('files/kieran/_Shape_A_1.xml')))
+Expected:
+    True
+Got:
+    False
+
+
+Failure <Click to see difference>
+
+**********************************************************************
+File "/Users/zhendeliu/Documents/unsw-2019-t1/unsw-it-9021/python-code/assignment2/chrislordau-tangram-doctest-161b25501b1c/test.py", line 92, in test
+Failed example:
+    is_solution(
+       available_coloured_pieces(open('files/kieran/_Tangram_B_1.xml')),
+       available_coloured_pieces(open('files/kieran/_Shape_B_1.xml')))
+Expected:
+    True
+Got:
+    False
+
+
+Failure <Click to see difference>
+
+**********************************************************************
+File "/Users/zhendeliu/Documents/unsw-2019-t1/unsw-it-9021/python-code/assignment2/chrislordau-tangram-doctest-161b25501b1c/test.py", line 110, in test
+Failed example:
+    are_valid(available_coloured_pieces(open('files/chris/are_valid/not-valid-concave.xml')))
+Expected:
+    False
+Got:
+    True
+
+
+Failure <Click to see difference>
+
+**********************************************************************
+File "/Users/zhendeliu/Documents/unsw-2019-t1/unsw-it-9021/python-code/assignment2/chrislordau-tangram-doctest-161b25501b1c/test.py", line 116, in test
+Failed example:
+    are_valid(available_coloured_pieces(open('files/chris/are_valid/not-valid-no-pieces.xml')))
+Expected:
+    False
+Got:
+    True
+
+
+Failure <Click to see difference>
+
+**********************************************************************
+File "/Users/zhendeliu/Documents/unsw-2019-t1/unsw-it-9021/python-code/assignment2/chrislordau-tangram-doctest-161b25501b1c/test.py", line 118, in test
+Failed example:
+    are_valid(available_coloured_pieces(open('files/chris/are_valid/not-valid-one-side.xml')))
+Expected:
+    False
+Got:
+    True
+
+
+Failure <Click to see difference>
+
+**********************************************************************
+File "/Users/zhendeliu/Documents/unsw-2019-t1/unsw-it-9021/python-code/assignment2/chrislordau-tangram-doctest-161b25501b1c/test.py", line 122, in test
+Failed example:
+    are_valid(available_coloured_pieces(open('files/chris/are_valid/not-valid-two-sides.xml')))
+Expected:
+    False
+Got:
+    True
+
+
+Failure <Click to see difference>
+
+**********************************************************************
+File "/Users/zhendeliu/Documents/unsw-2019-t1/unsw-it-9021/python-code/assignment2/chrislordau-tangram-doctest-161b25501b1c/test.py", line 124, in test
+Failed example:
+    are_valid(available_coloured_pieces(open('files/chris/are_valid/not-valid-overlapping-points.xml')))
+Expected:
+    False
+Got:
+    True
+
+
+Failure <Click to see difference>
+
+**********************************************************************
+File "/Users/zhendeliu/Documents/unsw-2019-t1/unsw-it-9021/python-code/assignment2/chrislordau-tangram-doctest-161b25501b1c/test.py", line 198, in test
+Failed example:
+    is_solution(
+       available_coloured_pieces(open('files/chris/is_solution/A-solution.xml')),
+       available_coloured_pieces(open('files/chris/is_solution/A-shape.xml')))
+Expected:
+    True
+Got:
+    False
+
+
+Failure <Click to see difference>
+
+**********************************************************************
+File "/Users/zhendeliu/Documents/unsw-2019-t1/unsw-it-9021/python-code/assignment2/chrislordau-tangram-doctest-161b25501b1c/test.py", line 202, in test
+Failed example:
+    is_solution(
+       available_coloured_pieces(open('files/chris/is_solution/A-solution-2.xml')),
+       available_coloured_pieces(open('files/chris/is_solution/A-shape.xml')))
+Expected:
+    True
+Got:
+    False
+
+
+Failure <Click to see difference>
+
+**********************************************************************
+File "/Users/zhendeliu/Documents/unsw-2019-t1/unsw-it-9021/python-code/assignment2/chrislordau-tangram-doctest-161b25501b1c/test.py", line 218, in test
+Failed example:
+    is_solution(
+       available_coloured_pieces(open('files/chris/is_solution/B-solution-2.xml')),
+       available_coloured_pieces(open('files/chris/is_solution/B-shape.xml')))
+Expected:
+    True
+Got:
+    False
+
+
+Failure <Click to see difference>
+
+**********************************************************************
+File "/Users/zhendeliu/Documents/unsw-2019-t1/unsw-it-9021/python-code/assignment2/chrislordau-tangram-doctest-161b25501b1c/test.py", line 230, in test
+Failed example:
+    is_solution(
+       available_coloured_pieces(open('files/chris/is_solution/B-not-solution-invalid-outside.xml')),
+       available_coloured_pieces(open('files/chris/is_solution/B-shape.xml')))
+Expected:
+    False
+Got:
+    True
+
+
+Failure <Click to see difference>
+
+**********************************************************************
+File "/Users/zhendeliu/Documents/unsw-2019-t1/unsw-it-9021/python-code/assignment2/chrislordau-tangram-doctest-161b25501b1c/test.py", line 238, in test
+Failed example:
+    is_solution(
+       available_coloured_pieces(open('files/chris/is_solution/C-solution.xml')),
+       available_coloured_pieces(open('files/chris/is_solution/C-shape.xml')))
+Expected:
+    True
+Got:
+    False
+
+
+Failure <Click to see difference>
+
+**********************************************************************
+File "/Users/zhendeliu/Documents/unsw-2019-t1/unsw-it-9021/python-code/assignment2/chrislordau-tangram-doctest-161b25501b1c/test.py", line 254, in test
+Failed example:
+    is_solution(
+       available_coloured_pieces(open('files/chris/is_solution/D-solution.xml')),
+       available_coloured_pieces(open('files/chris/is_solution/D-shape.xml')))
+Expected:
+    True
+Got:
+    False
+
+
+Failure <Click to see difference>
+
+**********************************************************************
+File "/Users/zhendeliu/Documents/unsw-2019-t1/unsw-it-9021/python-code/assignment2/chrislordau-tangram-doctest-161b25501b1c/test.py", line 262, in test
+Failed example:
+    is_solution(
+       available_coloured_pieces(open('files/chris/is_solution/E-solution.xml')),
+       available_coloured_pieces(open('files/chris/is_solution/E-shape.xml')))
+Expected:
+    True
+Got:
+    False
+
+
+Failure <Click to see difference>
+
+**********************************************************************
+File "/Users/zhendeliu/Documents/unsw-2019-t1/unsw-it-9021/python-code/assignment2/chrislordau-tangram-doctest-161b25501b1c/test.py", line 270, in test
+Failed example:
+    is_solution(
+       available_coloured_pieces(open('files/chris/is_solution/F-solution.xml')),
+       available_coloured_pieces(open('files/chris/is_solution/F-shape.xml')))
+Expected:
+    True
+Got:
+    False
+
+
+Failure <Click to see difference>
+
+**********************************************************************
+File "/Users/zhendeliu/Documents/unsw-2019-t1/unsw-it-9021/python-code/assignment2/chrislordau-tangram-doctest-161b25501b1c/test.py", line 278, in test
+Failed example:
+    is_solution(
+       available_coloured_pieces(open('files/chris/is_solution/G-solution.xml')),
+       available_coloured_pieces(open('files/chris/is_solution/G-shape.xml')))
+Expected:
+    True
+Got:
+    False
+
+
+Process finished with exit code 0
