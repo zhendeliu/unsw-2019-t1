@@ -179,232 +179,149 @@ def computer_k_b(point1,point2):
 # 2.如果分割，判断线段能否分割图形
 # 3. 线段分割图形：与边相交斜率不等，斜率相等切有交点 判断是否分割了
 
-def computer_not_join3(points_list1,points_list2):
-    # 判断边是否相交 求出交点
-    # 判断
-    return
-
-
-def computer_not_join(points_list1,points_list2):
-    for i in range(len(points_list1)-2):
-        # print(points_list1[i])
-        k1, b1 = computer_k_b(points_list1[i], points_list1[i + 1])
-        if k1 == 'vertical':
-            for j in range(len(points_list2)-2):
-                if points_list2[j][0] >= b1 and  points_list2[j + 1][0]>= b1:
-                    continue
-                elif points_list2[j][0] <= b1 and  points_list2[j + 1][0]<= b1:
-                    continue
-                else:
-                    k2, b2 = computer_k_b(points_list2[j], points_list2[j + 1])
-                    if k1 == k2:
-                        continue
-                    else:
-                        # if k2 == 'vertical':
-                        #     if points_list1[i][0] >= b1 and points_list1[i + 1][0] >= b1:
-                        #         continue
-                        #     elif points_list1[i][0] <= b1 and points_list2[i + 1][0] <= b1:
-                        #         continue
-                        #     else:
-                        #         print(11111)
-                        #         return False
-                        # else:
-                        tof = (points_list1[i][1] - k2 * points_list1[i][0] - b2)
-                        tof2 = (points_list1[i + 1][1] - k2 * points_list1[i + 1][0] - b2)
-                        if (tof >0 and tof2 >0) or (tof <0  and tof2<0) or tof == 0 or tof2 == 0 :
-                            continue
-                        else:
-                            # print(points_list1[i],points_list1[i+1],points_list2[j], points_list2[j + 1])
-                            print(22222)
-                            return False
-                    # return False
-        else:
-            for j in range(len(points_list2)-2):
-                k2, b2 = computer_k_b(points_list2[j], points_list2[j + 1])
-                if k1 == k2:
-
-                    continue
-                else:
-                    tof = (points_list2[j][1] - k1 * points_list2[j][0] - b1)
-                    tof2 = (points_list2[j+1][1] - k1 * points_list2[j+1][0] - b1)
-                    if (tof > 0 and tof2 > 0) or (tof < 0 and tof2 < 0) or tof == 0 or tof2 == 0:
-                        continue
-                    elif k2 == 'vertical':
-                        if points_list1[i][0] >= b2 and points_list1[i + 1][0] >= b2:
-                            continue
-                        elif points_list1[i][0] <= b2 and points_list2[i + 1][0] <= b2:
-                            continue
-                        else:
-                            print(33333)
-                            return False
-                    else:
-                        tof = (points_list1[i][1] - k2 * points_list1[i][0] - b2)
-                        # print(points_list1[i])
-                        tof2 = (points_list1[i + 1][1] - k2 * points_list1[i + 1][0] - b2)
-                        if (tof > 0 and tof2 > 0) or (tof < 0 and tof2 < 0) or tof == 0 or tof2 == 0:
-                            continue
-                        else:
-                            return False
-    return True
-
-
-
-
-
-
-
-
-
-
-def computer_not_join2(points_list1,points_list2, shape = 0):
-    for i in range(len(points_list1)-2):
-        k1, b1 = computer_k_b(points_list1[i], points_list1[i + 1])
-        if k1 == 'vertical':
-            join_points = []
-            if len(join_points) == 2:
-                print(101202020)
-            for j in range(len(points_list2)-2):
-
-                if points_list2[j][0] >= b1 and  points_list2[j + 1][0]>= b1:
-                    if points_list2[j][0] == b1 and points_list2[j+1][0] != b1 and points_list2[j][0] not in join_points:
-                        join_points.append(points_list1[i])
-                    if points_list2[j+1][0] == b1 and points_list2[j][0] != b1 and points_list2[j+1][0] not in join_points:
-                        join_points.append(points_list1[i+1])
-                    continue
-                elif points_list2[j][0] <= b1 and  points_list2[j + 1][0]<= b1:
-                    if points_list2[j][0] == b1 and points_list2[j+1][0] != b1 and points_list2[j][0] not in join_points:
-                        join_points.append(points_list1[i])
-                    if points_list2[j+1][0] == b1 and points_list2[j][0] != b1 and points_list2[j+1][0] not in join_points:
-                        join_points.append(points_list2[i+1])
-                    continue
-                else:
-                    k2, b2 = computer_k_b(points_list2[j], points_list2[j + 1])
-                    # if k1 == k2: # 不会发生
-                    #     continue
-                    # else:
-                    tof = (points_list1[i][1] - k2 * points_list1[i][0] - b2)
-                    tof2 = (points_list1[i + 1][1] - k2 * points_list1[i + 1][0] - b2)
-                    if (tof >0 and tof2 >0) or (tof <0  and tof2<0) or tof == 0 or tof2 == 0 :
-                        btw = int(points_list1[i][0] <= points_list2[j][0]) + int(
-                            points_list1[i + 1][0] <= points_list2[j][0])
-                        if tof == 0 and tof2 != 0 and btw==1 and points_list1[i] not in points_list2.values():
-                            join_points.append(points_list1[i])
-                        btw = int(points_list1[i][0] <= points_list2[j + 1][0]) + int(
-                            points_list1[i + 1][0] <= points_list2[j + 1][0])
-                        if tof2 == 0 and tof != 0 and btw==1 and points_list1[i] not in points_list2.values():
-                            join_points.append(points_list1[i + 1])
-                        continue
-                    else:
-                        # print(points_list1[i],points_list1[i+1],points_list2[j], points_list2[j + 1])
-                        print(22222)
-                        return False
-                    # return False
-            if len(join_points) >= 2 and not shape:
-                # 判断能否分割
-                value_list = []
-                for j in range(len(points_list2) - 2):
-                    if points_list2[j][0] >= b1:
-                        value_list.append(1)
-                    if points_list2[j][0] <= b1:
-                        value_list.append(0)
-                if sum(value_list) == 0 or sum(value_list) == len(value_list):
-                    pass
-                else:
-                    print(77777)
-                    return False
-        else:
-            join_points = []
-            for j in range(len(points_list2)-2):
-                k2, b2 = computer_k_b(points_list2[j], points_list2[j + 1])
-                if k1 != k2:
-                    tof = (points_list2[j][1] - k1 * points_list2[j][0] - b1)
-                    tof2 = (points_list2[j+1][1] - k1 * points_list2[j+1][0] - b1)
-                    if (tof > 0 and tof2 > 0) or (tof < 0 and tof2 < 0) or tof == 0 or tof2 == 0:
-                        btw = int(points_list1[i][0] <= points_list2[j][0]) + int(points_list1[i+1][0] <= points_list2[j][0])
-                        if tof == 0 and tof2 != 0 and btw==1 and points_list1[i] not in join_points :
-                            join_points.append(points_list1[i])
-                            continue
-                        btw = int(points_list1[i][0] <= points_list2[j+1][0]) + int(points_list1[i + 1][0] <= points_list2[j+1][0])
-                        if tof2 == 0 and tof != 0 and btw==1 and points_list1[i+1] not in join_points :
-                            join_points.append(points_list1[i+1])
-                            continue
-                    elif k2 == 'vertical':
-                        if points_list1[i][0] >= b2 and points_list1[i + 1][0] >= b2:
-                            if points_list1[i][0] == b2 and points_list1[i][0] != b2 and points_list1[i] not in join_points:
-                                join_points.append(points_list1[i])
-                            if points_list1[i][0] != b2 and points_list1[i+1][0] == b2 and points_list1[i+1] not in join_points:
-                                join_points.append(points_list1[i + 1])
-                            continue
-                        elif points_list1[i][0] <= b2 and points_list2[i + 1][0] <= b2:
-                            if points_list1[i][0] == b2 and points_list1[i][0] != b2 and points_list1[i] not in join_points:
-                                join_points.append(points_list1[i])
-                            if points_list1[i][0] != b2 and points_list1[i+1][0] == b2 and points_list1[i+1] not in join_points:
-                                join_points.append(points_list1[i + 1])
-                            continue
-                        else:
-                            print(33333)
-                            return False
-                    else:
-                        tof = (points_list1[i][1] - k2 * points_list1[i][0] - b2)
-                        # print(points_list1[i])
-                        tof2 = (points_list1[i + 1][1] - k2 * points_list1[i + 1][0] - b2)
-                        if (tof > 0 and tof2 > 0) or (tof < 0 and tof2 < 0) or tof == 0 or tof2 == 0:
-                            if tof == 0 and tof2 != 0 and points_list1[i] not in join_points:
-                                join_points.append(points_list1[i])
-                            if tof2 == 0 and tof != 0 and points_list1[i+1] not in join_points:
-                                join_points.append(points_list1[i + 1])
-                            continue
-                        else:
-                            print(4444)
-                            return False
-            if len(join_points) >= 2 and not shape:
-                # 判断能否分割
-                value_list = []
-
-                for j in range(len(points_list2) - 2):
-                    print(points_list1[i])
-                    print(k1,b1)
-
-                    print(points_list2[j])
-                    value_list.append(int(points_list2[j][1] - k1 * points_list2[j][0] - b1 < 0))
-                print(len(points_list2))
-                print(value_list)
-                if sum(value_list) == 0 or sum(value_list) == len(value_list):
-                    pass
-                else:
-                    print(5555)
-                    return False
-    return True
-
-
-def judge_not_join(tangram,shape):
-    for piece in tangram:
-        if computer_not_join2(piece,shape[0], shape=1):
-            pass
-        else:
-            return False
-        for piece2 in tangram:
-            if piece == piece2:
-                pass
-            elif computer_not_join2(piece,piece2) and computer_not_join2(piece2,piece):
-                pass
-            else:
-                return False
-    return True
-
 # 1. 计算面积和是否相等
 # 2. 判断所有图形是否在内部：pieces的坐标点都在图形内部，shape的顶点坐标不在任何pieces的内部
 # 3. 判断有内部图形有无相交：判断pieces的坐标点是不是在彼此内部
 
 
 #### 判断少于三条边的情况
+def delete_ver(tangram):
+    res_list = []
+    a = []
+    k_b_dic = {}
+    for piece in tangram:
+        edge_dic = {}
+        for i in range(len(piece)-2):
+            k,b = computer_k_b(piece[i],piece[i+1])
+            edge_dic[i] = {}
+            edge_dic[i]['k'] = k
+            edge_dic[i]['b'] = b
+            # edge_dic[i]['count'] = 1
+            edge_dic[i]['start'] = piece[i]
+            edge_dic[i]['end'] = piece[i+1]
+            # edg_length = sqrt((piece[i][0] - piece[i+1][0]) ** 2 + (piece[i][1] - piece[i+1][1])**2)
+            # edge_dic[i]['length'] = edg_length
+            if (k,b) in a:
+                pass
+            else:
+                a.append((k,b))
+            if (k,b) in k_b_dic.keys():
+                k_b_dic[(k,b)].append(edge_dic[i])
+            else:
+                k_b_dic[(k,b)] = [edge_dic[i]]
+        res_list.append(edge_dic)
+    res = {}
+    for k_b in k_b_dic.keys():
+        edge_len = 0
+        point_list = []
+        point_x_list = []
+        point_y_list = []
+        for edges in k_b_dic[k_b]:
+            # for i in edges:
+            if  edges['start'] not in point_list:
+                point_list.append(edges['start'])
+                point_x_list.append(edges['start'][0])
+                point_y_list.append(edges['start'][1])
+            if edges['end'] not in point_list:
+                point_list.append(edges['end'])
+                point_x_list.append(edges['end'][0])
+                point_y_list.append(edges['end'][1])
+        # point_list = sorted(list(set(point_list)))
+        # 对点排序 从小到大
+        point_list2 = []
+        if k_b[0] == 'vertical' or k >0: # 根据y的值来排序
+            point_y_list = sorted(list(set(point_y_list)))
+            for i in point_y_list:
+                for j in point_list:
+                    if i == j[1]:
+                        point_list2.append(j)
+        else: # 根据x的值来排序
+            point_x_list = sorted(list(set(point_x_list)))
+            for i in point_x_list:
+                for j in point_list:
+                    if i == j[0]:
+                        point_list2.append(j)
+
+        for i in range(len(point_list2)-1):
+            p = 0
+            for edges in k_b_dic[k_b]:
+                # for edge in edges:
+                if (k=='vertical' or k > 0) and edges['start'][1] == point_list2[i][1] and edges['end'][1] >= point_list2[i+1][1]:
+                    p += 1
+                elif k <= 0 and edges['start'][0] == point_list2[i][0] and edges['end'][0] <= point_list2[i+1][0]:
+                    p += 1
+            if p == 1:
+                if (k,b) in res.keys():
+                    res[(k,b)].append([point_list[i],point_list[i+1]])
+                else:
+                    res[(k,b)] = [point_list[i],point_list[i+1]]
+            elif p>2:
+                print(2222222)
+                return False
+    return  res
+
+def judgement(shape, remind_points):
+    shape_k_b = {}
+    for i in range(len(shape)-1):
+        k, b = computer_k_b(shape[i], shape[i + 1])
+        if (k,b) not in shape_k_b.keys():
+            shape_k_b[(k,b)] = [[shape[i], shape[i + 1]]]
+        else:
+            shape_k_b[(k, b)].append([shape[i], shape[i + 1]])
+    for k_b in shape_k_b.keys():
+        all_lenth = 0
+        for points in shape_k_b[k_b]:
+            all_lenth += sqrt((points[i][0] - points[i+1][0]) ** 2 + (points[i][1] - points[i+1][1])**2)
+        if k_b in remind_points.keys():
+            all_lenth2 = 0
+            for points in remind_points[k_b]:
+                all_lenth2 += sqrt((points[i][0] - points[i + 1][0]) ** 2 + (points[i][1] - points[i + 1][1]) ** 2)
+            if all_lenth != all_lenth2:
+                print(3333333)
+                return  False
+        else:
+            print(444444444)
+            return False
+    return True
+
+def judgement2(tangram,shape):
+    res_list = []
+    a = []
+    k_b_dic = {}
+    tangram.extend(shape)
+    for piece in tangram:
+        edge_dic = {}
+        for i in range(len(piece) - 2):
+            k, b = computer_k_b(piece[i], piece[i + 1])
+            edge_dic[i] = {}
+            edge_dic[i]['k'] = k
+            edge_dic[i]['b'] = b
+            # edge_dic[i]['count'] = 1
+            edge_dic[i]['start'] = piece[i]
+            edge_dic[i]['end'] = piece[i + 1]
+            # edg_length = sqrt((piece[i][0] - piece[i+1][0]) ** 2 + (piece[i][1] - piece[i+1][1])**2)
+            # edge_dic[i]['length'] = edg_length
+            if (k, b) in a:
+                pass
+            else:
+                a.append((k, b))
+            if (k, b) in k_b_dic.keys():
+                k_b_dic[(k, b)].append(edge_dic[i])
+            else:
+                k_b_dic[(k, b)] = [edge_dic[i]]
+        res_list.append(edge_dic)
+    for k_b in k_b_dic.keys():
+        if len(k_b_dic[k_b]) <2:
+            return False
+    return True
+    #
+    # return k_b_dic
+
+
 
 def is_solution(tangram,shape):
     if judge_areas(tangram,shape):
-        if judge_not_join(tangram,shape):
-            return True
-        else:
-            return False
+        return judgement2(tangram,shape)
     else:
         return False
 
@@ -416,12 +333,12 @@ if __name__ == '__main__':
     file = open('shape_A_1.xml')
     shape = available_coloured_pieces(file)
     # file = open('tttttest.xml')
-    file = open('tangram_A_1_a.xml')
+    file = open('tangram_A_1_b.xml')
     tangram = available_coloured_pieces(file)
     print(is_solution(tangram, shape))
-    # file = open('tangram_A_2_a.xml')
-    # tangram = available_coloured_pieces(file)
-    # print(is_solution(tangram, shape))
+    file = open('tangram_A_2_a.xml')
+    tangram = available_coloured_pieces(file)
+    print(is_solution(tangram, shape))
 
     # file = open('pieces_A.xml')
     # # file = open('incorrect_pieces_4.xml')

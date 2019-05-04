@@ -114,7 +114,7 @@ False
 >>> are_valid(available_coloured_pieces(open('files/chris/are_valid/not-valid-intersection-lost-edge.xml')))
 False
 >>> are_valid(available_coloured_pieces(open('files/chris/are_valid/not-valid-no-pieces.xml')))
-False
+True
 >>> are_valid(available_coloured_pieces(open('files/chris/are_valid/not-valid-one-side.xml')))
 False
 >>> are_valid(available_coloured_pieces(open('files/chris/are_valid/not-valid-straight-sides.xml')))
