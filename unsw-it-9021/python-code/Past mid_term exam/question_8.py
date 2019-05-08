@@ -73,35 +73,60 @@ def f(letters):
     with open(dictionary) as ff:
         words_list = ff.readlines()
     all_posble = {}
-    f_list = get_list(letters):
-        for i in f_list:
-            j =1
-            while j < range(len(i)):
-                t1 = i[:j]
-                t2 = i[j:]
-                if t1 not in all_posble.keys():
-                    all_posble[t1] = t2
+    f_list = max_letter(letters)
+    for i in f_list:
+        j =1
+        while j < len(i):
+            t1 = i[:j]
+            t2 = i[j:]
+            j += 1
+            if t1 not in all_posble.keys():
+                all_posble[t1] = t2
     for key in all_posble.keys():
-        for word in get_list(key):
+        for word in max_letter(key):
             if word in words_list:
-                for word2 in get_list(all_posble[key]):
+                for word2 in max_letter(all_posble[key]):
                     if word2 in words_list:
                         solutions.append((word,word2))
-        
     if not solutions:
         print('There is no solution')
     else:
         print(f'The pairs of words using all (distinct) letters in "{letters}" are:')
         for solution in solutions:
             print(solution)
-def get_list(lis1):
+##def get_list(lis1):
+##    res = []
+##    for lis in [lis1]:
+##        for i in range(len(lis)):
+##            tem_lis = lis[i:] + lis[:i]
+##            if isinstance(tem_lis,list) :
+##                res.extend(tem_lis)
+##            else:
+##                res.append(tem_lis)
+##    print(res)
+##    return res
+def max_letter(sss):
     res = []
-    for lis in [lis1, list(reversed(lis1))]:
-        for i in range(len(lis)):
-            tem_lis = lis[i:] + lis[:i]
-            res.append(tem_lis)
-    return res
-
+    all = []
+    res2 = []
+    k = 0
+    q = sss
+    for i in sss:
+        res.append(i)
+    while k <= len(sss):
+        res2 = []
+        for j in res:
+            for i in sss:
+                if i not in j:
+                    res2.append(i+j)
+        res.extend(res2)
+        k += 1
+    for i in res:
+        if len(i) ==len(sss) and i not in all:
+            all.append(i)
+    print(all)
+    return all
+##max_letter('AB')
+##f('ABCD')
 if __name__ == '__main__':
-    import doctest
-    doctest.testmod()
+    f('AB')
